@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07F026997815474FA0F75427 /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCF8D3BFB00E46E89028CA03 /* Oswald-Bold.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-IOSTestApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-IOSTestApp.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		307FF7011E134B0B89A30AA3 /* Oswald-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE6CE8E08B404B53A93574C1 /* Oswald-Medium.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		882EA4FDC9DC4D75A57F3DF6 /* Oswald-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 599E621EC9A942EABED32D3C /* Oswald-ExtraLight.ttf */; };
 		8D66824A974F8BB953E5C1B3 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		AFA26777DB214C098920B410 /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0162A0399FC4311B557BF6B /* Oswald-Light.ttf */; };
+		CABFC93F6D7A4544B636D208 /* Oswald-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76B127A4770F45D78A215D8D /* Oswald-SemiBold.ttf */; };
+		D966BE38437A486DBBE6276C /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4121920E28B42FBA98B03D9 /* Oswald-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,10 +27,16 @@
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = IOSTestApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-IOSTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSTestApp.debug.xcconfig"; path = "Target Support Files/Pods-IOSTestApp/Pods-IOSTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-IOSTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSTestApp.release.xcconfig"; path = "Target Support Files/Pods-IOSTestApp/Pods-IOSTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		599E621EC9A942EABED32D3C /* Oswald-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Oswald-ExtraLight.ttf"; path = "../assets/fonts/Oswald-ExtraLight.ttf"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-IOSTestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IOSTestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = IOSTestApp/AppDelegate.swift; sourceTree = "<group>"; };
+		76B127A4770F45D78A215D8D /* Oswald-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Oswald-SemiBold.ttf"; path = "../assets/fonts/Oswald-SemiBold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = IOSTestApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCF8D3BFB00E46E89028CA03 /* Oswald-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Oswald-Bold.ttf"; path = "../assets/fonts/Oswald-Bold.ttf"; sourceTree = "<group>"; };
+		CE6CE8E08B404B53A93574C1 /* Oswald-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Oswald-Medium.ttf"; path = "../assets/fonts/Oswald-Medium.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F0162A0399FC4311B557BF6B /* Oswald-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Oswald-Light.ttf"; path = "../assets/fonts/Oswald-Light.ttf"; sourceTree = "<group>"; };
+		F4121920E28B42FBA98B03D9 /* Oswald-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Oswald-Regular.ttf"; path = "../assets/fonts/Oswald-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		516350AFFD234A2393DB0712 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CCF8D3BFB00E46E89028CA03 /* Oswald-Bold.ttf */,
+				599E621EC9A942EABED32D3C /* Oswald-ExtraLight.ttf */,
+				F0162A0399FC4311B557BF6B /* Oswald-Light.ttf */,
+				CE6CE8E08B404B53A93574C1 /* Oswald-Medium.ttf */,
+				F4121920E28B42FBA98B03D9 /* Oswald-Regular.ttf */,
+				76B127A4770F45D78A215D8D /* Oswald-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +101,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				516350AFFD234A2393DB0712 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -161,6 +188,12 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				8D66824A974F8BB953E5C1B3 /* PrivacyInfo.xcprivacy in Resources */,
+				07F026997815474FA0F75427 /* Oswald-Bold.ttf in Resources */,
+				882EA4FDC9DC4D75A57F3DF6 /* Oswald-ExtraLight.ttf in Resources */,
+				AFA26777DB214C098920B410 /* Oswald-Light.ttf in Resources */,
+				307FF7011E134B0B89A30AA3 /* Oswald-Medium.ttf in Resources */,
+				D966BE38437A486DBBE6276C /* Oswald-Regular.ttf in Resources */,
+				CABFC93F6D7A4544B636D208 /* Oswald-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,13 +224,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-IOSTestApp/Pods-IOSTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-IOSTestApp/Pods-IOSTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -234,13 +263,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-IOSTestApp/Pods-IOSTestApp-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-IOSTestApp/Pods-IOSTestApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -269,7 +294,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 2R5BF57QZ3;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = IOSTestApp/Info.plist;
@@ -278,7 +303,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -301,7 +326,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 2R5BF57QZ3;
 				INFOPLIST_FILE = IOSTestApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
@@ -309,7 +334,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
