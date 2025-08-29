@@ -1,14 +1,14 @@
 import React from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
+import { useTheme } from '../context/ThemeContext';
 
 const DetailsScreen = ({ navigation }: any) => {
+  const { theme } = useTheme();
+  
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Details Screen</Text>
-      <Button
-        title="Go Back"
-        onPress={() => navigation.goBack()}
-      />
+    <View style={[styles.container, { backgroundColor: theme.background }]}>
+      <Text style={[styles.title, { color: theme.text }]}>Details Screen</Text>
+      <Button title="Go Back" onPress={() => navigation.goBack()} />
     </View>
   );
 };
