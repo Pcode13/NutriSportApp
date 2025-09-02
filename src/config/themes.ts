@@ -3,6 +3,7 @@ export const lightTheme = {
   text: '#000000',
   card: '#f5f5f5',
   title:'#F24C00'
+  
 };
 
 export const darkTheme = {
