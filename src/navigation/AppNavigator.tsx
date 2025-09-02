@@ -1,26 +1,11 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
-import HomeScreen from '../screens/HomeScreen';
-import DetailsScreen from '../screens/DetailsScreen';
-import SplashScreen from '../screens/SplashScreen';
-import SignIn from '../screens/SignIn';
+import DrawerNavigator from './DrawerNavigator';
 
-const Stack = createStackNavigator();
-
-const AppNavigator = () => {
+const AppNavigator: React.FC = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator
-        screenOptions={{
-          headerShown: false,
-        }}
-      >
-        <Stack.Screen name="SplashScreen" component={SplashScreen} />
-        <Stack.Screen name="SignIn" component={SignIn} />
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Details" component={DetailsScreen} />
-      </Stack.Navigator>
+      <DrawerNavigator />
     </NavigationContainer>
   );
 };

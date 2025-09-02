@@ -1,10 +1,17 @@
 import React, { FC, useState } from 'react';
-import { Image, StyleSheet, Text, TouchableOpacity, View, Platform } from 'react-native';
+import {
+  Image,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+  Platform,
+} from 'react-native';
 import Page from '../ui/Page';
 import { useTheme } from '../context/ThemeContext';
 import { useFonts } from '../hooks/useFonts';
 import TextConstant from '../constant/TextConstant';
-import Toast from '../components/Toast';
+import Toast from '../compoents/Toast';
 import { useToast } from '../hooks/useToast';
 
 interface Props {}
