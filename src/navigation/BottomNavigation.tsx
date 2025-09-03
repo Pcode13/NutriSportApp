@@ -16,12 +16,20 @@ import Home from '../screens/HomeScreen';
 import Cart from '../screens/Cart';
 import Profile from '../screens/Profile';
 
-import HomeActiveSvg from '../../assets/images/Icons/homeActive.svg';
-import HomeSvg from '../../assets/images/Icons/home.svg';
-import Shopping_CartActive from '../../assets/images/Icons/shopping_cartActive.svg';
-import Shopping_Cart from '../../assets/images/Icons/shopping_cart.svg';
-import Grid from '../../assets/images/Icons/grid.svg';
-import GridActive from '../../assets/images/Icons/gridActive.svg';
+// import HomeActiveSvg from '../../assets/images/Icons/homeActive.svg';
+// import HomeSvg from '../../assets/images/Icons/home.svg';
+// import Shopping_CartActive from '../../assets/images/Icons/shopping_cartActive.svg';
+// import Shopping_Cart from '../../assets/images/Icons/shopping_cart.svg';
+// import Grid from '../../assets/images/Icons/grid.svg';
+// import GridActive from '../../assets/images/Icons/gridActive.svg';
+import {
+  HomeActive,
+  HomeSvg,
+  GridActive,
+  Grid,
+  CartActive,
+  CartSvg,
+} from '../../assets/constant';
 
 const Tab = createBottomTabNavigator<BottomTabParamList>();
 
@@ -37,15 +45,15 @@ const TabIcon = ({
 
   if (routeName === 'Home')
     return isFocused ? (
-      <HomeActiveSvg width={size} height={size} />
+      <HomeActive width={size} height={size} />
     ) : (
       <HomeSvg width={size} height={size} />
     );
   if (routeName === 'Cart')
     return isFocused ? (
-      <Shopping_CartActive width={size} height={size} />
+      <CartActive width={size} height={size} />
     ) : (
-      <Shopping_Cart width={size} height={size} />
+      <CartSvg width={size} height={size} />
     );
 
   if (routeName === 'Profile')
